@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="Catring"/>
+    <meta name="author" content="JWY"/>
+    <!--    <link rel="icon" href="">-->
+    <title>Admin - Shops</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/framework/bootstrap.css" rel="stylesheet"/>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/css/framework/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link href="/css/navbar-adjust.css" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="/js/framework/html5shiv.js"></script>
+    <script src="/js/framework/respond.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/framework/jquery-3.2.0.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/framework/bootstrap.js"></script>
+    <script src="/js/admin/admin_shops.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- nav title -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+            <a class="navbar-brand" href="/">Catring</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/admin/shops">店铺管理</a></li>
+                <li><a href="/admin/users">帐户管理</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <!--header-->
+                <div class="panel-heading">
+                    <h3 class="panel-title">店铺列表</h3>
+                </div>
+
+                <!-- Table -->
+                <div class="table-responsive">
+                    <table class="table table-striped ">
+                        <thead>
+                        <tr>
+                            <th>
+                                <button type="button" class="btn btn-default btn-xs add-button" aria-label="Left Align"
+                                        data-toggle="modal" data-target="#edit-modal">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                                </button>
+                            </th>
+                            <th>店名</th>
+                            <th>城市</th>
+                            <th>区/县</th>
+                            <th>附近地标</th>
+                            <th>街道地址</th>
+                            <th>评分星级</th>
+                            <th>分类标签</th>
+                            <th>封面</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        <tr th:each="shop : ${shops}">
+                            <th class="shop-id" th:text="${shop.shopId}"></th>
+                            <td class="shop-title" th:text="${shop.title}"></td>
+                            <td class="city" th:text="${shop.city}"></td>
+                            <td class="district" th:text="${shop.district}"></td>
+                            <td class="landmark" th:text="${shop.landmark}"></td>
+                            <td class="address" th:text="${shop.address}"></td>
+                            <td class="star-rate" th:text="${shop.starRate}"></td>
+                            <td class="food-tag" th:text="${shop.foodTag}"></td>
+                            <td>
+                                    <img th:src="'/image/avatar/' + ${shop.coverFilename}" height="150">
+
+                            </td>
+                            <td width="40">
+                                <button type="button" class="btn btn-default btn-xs edit-button" data-toggle="modal"
+                                        data-target="#edit-modal">编辑
+                                </button>
+                            </td>
+                            <td width="40">
+                                <button type="button" class="btn btn-default btn-xs edit-button" th:onclick="$([['#shop'+${shop.shopId}+'CoverUpload']]).click()">
+                                    上传封面
+                                </button>
+                                <input type="file" name="fileUpload" th:id="'shop'+${shop.shopId}+'CoverUpload'" style="display: none;" accept="image/gif,image/jpeg"/>
+                            </td>
+                            <td width="50">
+                                <button type="button" class="btn btn-default btn-xs edit-button" th:onclick="window.open([['/admin/foods?shopId='+${shop.shopId}]])">菜品管理
+                                </button>
+                            </td>
+                            <td width="100">
+                                <button type="button" class="btn btn-danger btn-xs remove-button">删除
+                                </button>
+                            </td>
+                            <td class="cover-filename hidden" th:text="${shop.coverFilename}"></td>
+                            <td class="description hidden" th:text="${shop.description}"></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!--footer-->
+                <div class="panel-footer">
+                    So many shops
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="edit-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">编辑</h4>
+            </div>
+            <div class="modal-body">
+                <form id="info-form" method="post">
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label class="control-label" for="shop-title">店名</label>
+                            <input type="text" name="title" id="shop-title" class="form-control"
+                                   placeholder="Shop name" maxlength="255"/>
+                            <span class="help-block"></span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label class="control-label" for="city">城市</label>
+                            <input type="text" name="city" class="form-control" id="city" placeholder="City"
+                                   required="" maxlength="255"/>
+                            <span class="help-block"></span>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label class="control-label" for="district">区/县</label>
+                            <input type="text" name="district" class="form-control" id="district" placeholder="District"
+                                   required="" maxlength="64"/>
+                            <span class="help-block"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label class="control-label" for="landmark">附近地标</label>
+                            <input type="text" name="landmark" class="form-control" id="landmark" placeholder="Landmark"
+                                   required=""/>
+                            <span class="help-block"></span>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label class="control-label" for="address">街道地址</label>
+                            <input type="text" name="address" class="form-control" id="address" placeholder="Address"
+                                   required=""/>
+                            <span class="help-block"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-3">
+                            <label class="control-label" for="food-tag">分类标签</label>
+                            <input name="foodTag" class="form-control" id="food-tag" type="text"
+                                   placeholder="Food tag" required=""/>
+                            <span class="help-block"></span>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label class="control-label" for="star-rate">评分星级</label>
+                            <input name="starRate" class="form-control" id="star-rate" type="text"
+                                   placeholder="Star Rate" required=""/>
+                            <span class="help-block"></span>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label class="control-label" for="description">描述</label>
+                            <textarea name="description" class="form-control" rows="8" id="description"
+                                      placeholder="Description" required=""></textarea>
+                            <span class="help-block"></span>
+                        </div>
+                    </div>
+
+
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button"  id="modal-submit-button" class="btn btn-primary" data-dismiss="modal">提交
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
