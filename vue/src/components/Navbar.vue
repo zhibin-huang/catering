@@ -6,7 +6,7 @@
 
                 <!-- nav title -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="/">Catring</a>
+                    <a class="navbar-brand" href="/">Catering</a>
                 </div>
 
                 <!-- nav tag and search box -->

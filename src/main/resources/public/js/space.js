@@ -13055,7 +13055,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\components\\Navbar.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\components\\Navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13089,7 +13089,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\components\\PageFooter.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\components\\PageFooter.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] PageFooter.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13239,7 +13239,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "href": "/"
     }
-  }, [_vm._v("Catring")])])
+  }, [_vm._v("Catering")])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
     staticClass: "dropdown-toggle",
@@ -13415,7 +13415,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\Space.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\Space.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Space.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14256,25 +14256,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'profile-form',
@@ -14633,7 +14614,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\AccountForm.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\AccountForm.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AccountForm.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14667,7 +14648,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\AddressList.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\AddressList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddressList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14701,7 +14682,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\AddressListItem.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\AddressListItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddressListItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14735,7 +14716,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\CommentList.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\CommentList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommentList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14769,7 +14750,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\CommentModal.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\CommentModal.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommentModal.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14807,7 +14788,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\CommentPanel.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\CommentPanel.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CommentPanel.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14845,7 +14826,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\OrderItemMediaListItem.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\OrderItemMediaListItem.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OrderItemMediaListItem.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14879,7 +14860,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\OrderList.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\OrderList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OrderList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14917,7 +14898,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\ProfileBanner.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\ProfileBanner.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ProfileBanner.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14951,7 +14932,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\ProfileForm.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\ProfileForm.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ProfileForm.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -14985,7 +14966,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\space\\ProfileTab.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\space\\ProfileTab.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ProfileTab.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -15193,87 +15174,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "change": _vm.uploadPicture
     }
-  })])])]), _vm._v(" "), _c('h2', [_vm._v("Subscription")]), _vm._v(" "), _c('hr'), _vm._v(" "), _c('div', {
-    staticClass: "row"
-  }, [_c('form', {
-    staticClass: "col-md-8"
-  }, [_c('div', {
-    staticClass: "form-group"
-  }, [_c('label', [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.newsletters),
-      expression: "newsletters"
-    }],
-    attrs: {
-      "type": "checkbox"
-    },
-    domProps: {
-      "checked": Array.isArray(_vm.newsletters) ? _vm._i(_vm.newsletters, null) > -1 : (_vm.newsletters)
-    },
-    on: {
-      "change": function($event) {
-        var $$a = _vm.newsletters,
-          $$el = $event.target,
-          $$c = $$el.checked ? (true) : (false);
-        if (Array.isArray($$a)) {
-          var $$v = null,
-            $$i = _vm._i($$a, $$v);
-          if ($$el.checked) {
-            $$i < 0 && (_vm.newsletters = $$a.concat([$$v]))
-          } else {
-            $$i > -1 && (_vm.newsletters = $$a.slice(0, $$i).concat($$a.slice($$i + 1)))
-          }
-        } else {
-          _vm.newsletters = $$c
-        }
-      }
-    }
-  }), _vm._v(" Subscript to Naïve Newsletters\n                ")])]), _vm._v(" "), _c('div', {
-    staticClass: "form-group"
-  }, [_c('label', [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.autoRecharge),
-      expression: "autoRecharge"
-    }],
-    attrs: {
-      "type": "checkbox"
-    },
-    domProps: {
-      "checked": Array.isArray(_vm.autoRecharge) ? _vm._i(_vm.autoRecharge, null) > -1 : (_vm.autoRecharge)
-    },
-    on: {
-      "change": function($event) {
-        var $$a = _vm.autoRecharge,
-          $$el = $event.target,
-          $$c = $$el.checked ? (true) : (false);
-        if (Array.isArray($$a)) {
-          var $$v = null,
-            $$i = _vm._i($$a, $$v);
-          if ($$el.checked) {
-            $$i < 0 && (_vm.autoRecharge = $$a.concat([$$v]))
-          } else {
-            $$i > -1 && (_vm.autoRecharge = $$a.slice(0, $$i).concat($$a.slice($$i + 1)))
-          }
-        } else {
-          _vm.autoRecharge = $$c
-        }
-      }
-    }
-  }), _vm._v("\n                    Enable auto-recharge (recharge $100 when your credits is below $20)\n                ")])]), _vm._v(" "), _c('div', {
-    staticClass: "form-group"
-  }, [_c('button', {
-    staticClass: "btn btn-default",
-    attrs: {
-      "type": "button"
-    },
-    on: {
-      "click": _vm.updateSubscription
-    }
-  }, [_vm._v("Update Subscription\n                ")])])])])])
+  })])])])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {

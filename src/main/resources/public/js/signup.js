@@ -167,7 +167,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\components\\Navbar.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\components\\Navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -202,7 +202,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\components\\PageFooter.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\components\\PageFooter.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] PageFooter.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -354,7 +354,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "href": "/"
     }
-  }, [_vm._v("Catring")])])
+  }, [_vm._v("Catering")])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
     staticClass: "dropdown-toggle",
@@ -529,7 +529,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\signup\\Signup.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\signup\\Signup.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Signup.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13194,7 +13194,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\signup\\SignupForm.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\signup\\SignupForm.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] SignupForm.vue: functional components are not supported with templates, they should use render functions.")}
 

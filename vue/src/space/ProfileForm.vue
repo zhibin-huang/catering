@@ -30,27 +30,8 @@
                 </form>
             </div>
         </div>
-        <h2>Subscription</h2>
-        <hr>
-        <div class="row">
-            <form class="col-md-8">
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" v-model="newsletters"> Subscript to Naïve Newsletters
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" v-model="autoRecharge">
-                        Enable auto-recharge (recharge $100 when your credits is below $20)
-                    </label>
-                </div>
-                <div class="form-group">
-                    <button type="button" class="btn btn-default" @click="updateSubscription">Update Subscription
-                    </button>
-                </div>
-            </form>
-        </div>
+
+
     </div>
 </template>
 

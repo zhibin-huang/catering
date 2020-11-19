@@ -13055,7 +13055,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\components\\Navbar.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\components\\Navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13089,7 +13089,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\components\\PageFooter.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\components\\PageFooter.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] PageFooter.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13239,7 +13239,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "href": "/"
     }
-  }, [_vm._v("Catring")])])
+  }, [_vm._v("Catering")])])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('a', {
     staticClass: "dropdown-toggle",
@@ -13413,7 +13413,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\index\\App.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\index\\App.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] App.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13893,7 +13893,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\index\\ShopModal.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\index\\ShopModal.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ShopModal.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13927,7 +13927,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\index\\ShopTable.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\index\\ShopTable.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ShopTable.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -13961,7 +13961,7 @@ var Component = __webpack_require__(0)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catring\\vue\\src\\index\\ShopThumbnail.vue"
+Component.options.__file = "C:\\Users\\zhibinhwang\\Desktop\\catering\\vue\\src\\index\\ShopThumbnail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ShopThumbnail.vue: functional components are not supported with templates, they should use render functions.")}
 
