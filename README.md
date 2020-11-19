@@ -1,2 +1,2 @@
-# Catring
-A catring website built by spring boot
+# Catering
+A catering website built by spring boot
