@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="catring@localhost [2]">
-  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.19">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.20">
     <root id="1">
-      <ServerVersion>4.4.1</ServerVersion>
+      <ServerVersion>4.4.3</ServerVersion>
     </root>
     <schema id="2" parent="1" name="admin"/>
-    <schema id="3" parent="1" name="bookstore"/>
-    <schema id="4" parent="1" name="catring">
-      <Current>1</Current>
-    </schema>
-    <schema id="5" parent="1" name="config"/>
-    <schema id="6" parent="1" name="local"/>
-    <table id="7" parent="4" name="userProfile"/>
-    <column id="8" parent="7" name="_id">
-      <DataType>ObjectId(0)|12s</DataType>
-    </column>
-    <column id="9" parent="7" name="Bio">
-      <Position>1</Position>
-      <DataType>String(0)|12s</DataType>
-    </column>
-    <column id="10" parent="7" name="_class">
-      <Position>2</Position>
-      <DataType>String(0)|12s</DataType>
-    </column>
-    <column id="11" parent="7" name="addresses">
-      <Position>3</Position>
-      <DataType>list(0)|4999545s</DataType>
-    </column>
-    <column id="12" parent="7" name="autoRecharge">
-      <Position>4</Position>
-      <DataType>Boolean|12s</DataType>
-    </column>
-    <column id="13" parent="7" name="avatarFilename">
-      <Position>5</Position>
-      <DataType>String(0)|12s</DataType>
-    </column>
-    <column id="14" parent="7" name="location">
-      <Position>6</Position>
-      <DataType>String(0)|12s</DataType>
-    </column>
-    <column id="15" parent="7" name="newsletters">
-      <Position>7</Position>
-      <DataType>Boolean|12s</DataType>
-    </column>
-    <column id="16" parent="7" name="userId">
-      <Position>8</Position>
-      <DataType>Integer|4s</DataType>
-    </column>
-    <column id="17" parent="7" name="username">
-      <Position>9</Position>
-      <DataType>String(0)|12s</DataType>
-    </column>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="local"/>
   </database-model>
 </dataSource>

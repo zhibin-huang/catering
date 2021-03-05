@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("exception")
 public class StorageProperties {
 
-    private String location = "/Users/zhibinhwang/Desktop/catering/files/";
+    private String location = "/Users/huangzhibin/IdeaProjects/Catering/files";
 
     private String avatarRelativeLocation = "img/avatar";
 
