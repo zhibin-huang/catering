@@ -17,7 +17,7 @@
     "cross-env": "^3.0.0",
     "css-loader": "^6.8.1",
     "file-loader": "^6.2.0",
-    "vue-loader": "^11.1.4",
+    "vue-loader": "^17.3.0",
     "vue-template-compiler": "^2.2.1",
     "webpack": "^5.89.0"
   }
